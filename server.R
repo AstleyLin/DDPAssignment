@@ -1,6 +1,7 @@
 library(shiny)
 library(tseries)
 library(zoo)
+library(markdown)
 source("StockTrendChart.Func.R")
 
 shinyServer(
